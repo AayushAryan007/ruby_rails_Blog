@@ -4,8 +4,7 @@
 /.bundle
 
 /.hello
-/.hello
-/.hello
+
 
 # Ignore all logfiles and tempfiles.
 /log/*
