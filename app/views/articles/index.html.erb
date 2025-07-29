@@ -6,29 +6,12 @@
     <li>
 
     <%= link_to article.title, article%>
-     <%
-=begin%>
- <a href="<%= article_path(article) %>">
-        <%= article.title %>
-      </a> 
-<%
-=end%>
-
-
-       <%
-=begin%>
- <a href="/articles/<%= article.id %>">
-        <%= article.title %>
-      </a> 
-<%
-=end%>
-      <%
-=begin%>
- <%=article.body%> 
-<%
-=end%>
+   
     </li>
   <%end%>  
   
 
 </ul>
+
+
+<%= link_to "New Article", new_article_path %>
